@@ -1,3 +1,32 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner leitura = new Scanner(System.in);
+        ArrayList<String> listaDeCompras = new ArrayList<>();
+
+        String item = "";
+
+        System.out.println("Lista de compras!\nDigite o item que deseja incluir, caso a lista esteja completa, digite sair!");
+
+        while (!item.equals("sair")) {
+            System.out.println("Digite o item: ");
+            item = leitura.nextLine();
+            if (!item.equals("sair")) {
+                listaDeCompras.add(item);
+            }
+        }
+        System.out.println("Lista de compras feita: ");
+        for (String listaCompleta : listaDeCompras) {
+            System.out.println(listaCompleta + " ");
+        }
+    }
+}
+
+/* Atividade feita com laços de repetições:
+
 import java.util.Scanner;
 
 public class Main {
@@ -35,3 +64,4 @@ public class Main {
         }
     }
 }
+*/
