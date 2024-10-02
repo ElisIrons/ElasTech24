@@ -1,4 +1,4 @@
-# Atividade 3 - Laço de Repetição 
+# Atividade - Laço de Repetição 
 ## Prof Rafael Gomes
 Valor: 100 pontos | Data de entrega: 19 de mar
 
